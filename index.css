@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: Inter;
+}
+
+.header {
+    padding: 1rem;
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.header-img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.header-text {
+    color: white;
+}
+
+.entry {
+    margin: 2rem 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.entry-img {
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.entry-right-section {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.right-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.combine {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.country {
+    letter-spacing: 0.2rem;
+}
+
+.google-maps {
+    color: gray;
+}
